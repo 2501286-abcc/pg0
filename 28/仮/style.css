@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+#homeh1{
+    text-align: center;
+    color: rgb(57, 39, 156);
+    padding: 10px 10px;
+    margin: 5 0 30 30;
+    border-left: 5px solid #000;
+    background: #f4f4f4;
+    font-family: 'Amatic SC', cursive;
+}
+img{
+    height: 35%;
+    width: 100%;
+    float: left;
+}
+#homeimg{
+    text-align: center;
+}
+#homeimg table{
+    margin: 0 auto;
+}
+#hmback{
+    position: fixed; bottom: 5px;
+    list-style: none;
+}
+.hometd{
+    padding: 5px;
+}
+.hometd:hover{
+  top: -20px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.347);
+  transition: 0.5s;
+}
+#hmback a:hover{
+    background-color: grey;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.347);
+    transition: 0.5s;
+}

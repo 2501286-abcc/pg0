@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    background-image: url(image/uma.jpg);
+    background-color:rgba(255,255,255,0.6);
+    background-blend-mode:lighten;
+    background-size: 100%;
+}
+#global-nav{
+    height: 100%;
+    width: 100%;
+    background-color: #e7a10b;
+    padding: 15px;
+}
+#global-ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+#global-ul a{
+    color: #ffffff;
+    text-decoration: none;
+}
+#global-ul li:hover{
+    color: rgb(255, 111, 0);
+    transform: translateY(-5px);
+    background-color: rgb(255, 111, 0);
+    border-radius: 65px;
+}
+.jiko{
+    text-align: center;
+    font-size: 50px;
+    width: 40%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(270deg, #ff7c4c 0%, #ff9100 40%, #ffca4e 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: rgb(208, 255, 0) -2px -2px;
+}
+#rowd{
+    text-align: left;
+    width: 60%;
+}
+#hmtab{
+    border-bottom: 5px solid #94feab;
+}
+#hom2{
+    font-size: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.homp{
+    font-size: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.btag{
+    text-align: center;
+    color: #ffa550;
+    font-size: 20px;
+}
+img{
+    width: 50%;
+    margin: 0;
+}
