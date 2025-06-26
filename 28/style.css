@@ -1,6 +1,7 @@
 body{
     margin: 0;
     background-image: url(image/uma.jpg);
+    background-size: cover;
     background-color:rgba(255,255,255,0.6);
     background-blend-mode:lighten;
     background-size: 100%;
@@ -61,7 +62,103 @@ body{
     color: #ffa550;
     font-size: 20px;
 }
+.from1{
+    text-align: center;
+    font-size: 30px;
+}
 img{
     width: 50%;
     margin: 0;
+}
+#map{
+    text-align: center;
+    height: 20%;
+}
+#fromp,.mus,#foodmap{
+    text-align: center;
+}
+.swim{
+    margin: 0;
+    height: 150px;
+    width: 150px;
+}
+.sport-div{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#mus{
+    text-align: center;
+    font-size: 20px;
+}
+.aikon{
+    height:250px;
+    width: 250px;
+    border-radius:50%;
+}
+.kasikoh2{
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: rgb(37, 31, 31) 2px 2px 8px;
+}
+#youtube{
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: red  -2px -2px 10px;
+    color: white;
+}
+.hobtable{
+    width: 100%;
+    table-layout: fixed;
+}
+.gazo{
+    text-align:center;
+    vertical-align:middle;
+}
+.osusume{
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: coral;
+    text-shadow: rgb(205, 62, 0) 2px 1px 8px;
+}
+.douga{
+    border-radius: 5%;
+    text-align: center;
+}
+#foodh1{
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+    background: linear-gradient(to bottom,  transparent 40%, rgb(140, 79, 10) 100%);
+    font-family: 'MS UI Gothic', sans-serif;
+}
+#foodtal{
+    width: 100%;
+    table-layout: fixed;
+}
+#oya{
+    font-size: 25px;
+}
+.gohan{
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 20px;
+}
+.gohan p{
+    margin: 0 auto;
+    font-weight: bold;
+    color: rgb(0, 0, 120);
+}
+.gazo2{
+    text-align:center;
+    vertical-align:middle;
+    border-radius: 10px;
+    width: 50%;
+    height: 50%;
+    transition-duration: 1s;
+}
+.gazo2:hover{
+    transform: translateY(-8px);
 }
